@@ -71,7 +71,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
             <div className="relative">
               <div className="w-80 h-80 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden shadow-2xl ring-4 ring-pink-200/50">
                 <img
-                  src="https://images.pexels.com/photos/4816/teddy-bear-toy-cute.jpg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://img.freepik.com/foto-gratis/lindos-esponjosos-juguetes-mono_23-2149642406.jpg?auto=compress&cs=tinysrgb&w=800"
                   alt="Peluches Paradise"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-1000 filter brightness-105"
                 />
