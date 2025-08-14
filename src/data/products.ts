@@ -109,7 +109,7 @@ export const products: Product[] = [
     name: "Oso Polar Gigante",
     price: 54.99,
     originalPrice: 69.99,
-    image: ""https://img.freepik.com/foto-gratis/mujer-casa-abrazando-gran-oso-peluche_23-2148832938.jpg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://img.freepik.com/foto-gratis/mujer-casa-abrazando-gran-oso-peluche_23-2148832938.jpg?auto=compress&cs=tinysrgb&w=800",
     category: "bears",
     size: "large",
     rating: 4.9,
