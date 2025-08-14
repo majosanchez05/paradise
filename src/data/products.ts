@@ -52,7 +52,7 @@ export const products: Product[] = [
     name: "Panda Gigante",
     price: 49.99,
     originalPrice: 59.99,
-    image: https://img.freepik.com/foto-gratis/retrato-joven-bella-mujer-abrazando-gran-oso-peluche-aislado-estudio_58466-12933.jpg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://img.freepik.com/foto-gratis/retrato-joven-bella-mujer-abrazando-gran-oso-peluche-aislado-estudio_58466-12933.jpg?auto=compress&cs=tinysrgb&w=800",
     category: "animals",
     size: "large",
     rating: 4.9,
