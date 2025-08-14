@@ -37,13 +37,13 @@ export const products: Product[] = [
     id: 3,
     name: "Gatito Naranja",
     price: 24.99,
-    image: "https://img.freepik.com/foto-gratis/primer-plano-animal-fieltro_23-2151728495.jpg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://img.freepik.com/psd-premium/adorable-tabby-naranja-juguete-gato-peluche-ojos-grandes-suave-acurrucado_1298987-2691.jpg?auto=compress&cs=tinysrgb&w=800",
     category: "animals",
     size: "small",
     rating: 4.7,
     description: "Tierno gatito de peluche color naranja con ojos brillantes y cola esponjosa.",
     gallery: [
-      "https://img.freepik.com/foto-gratis/primer-plano-animal-fieltro_23-2151728495.jpg?auto=compress&cs=tinysrgb&w=800",
+      "https://img.freepik.com/psd-premium/adorable-tabby-naranja-juguete-gato-peluche-ojos-grandes-suave-acurrucado_1298987-2691.jpg?auto=compress&cs=tinysrgb&w=800",
       "https://images.pexels.com/photos/4816/teddy-bear-toy-cute.jpg?auto=compress&cs=tinysrgb&w=800"
     ]
   },
@@ -94,14 +94,14 @@ export const products: Product[] = [
     id: 7,
     name: "Elefante Bebé",
     price: 27.99,
-    image: "https://img.freepik.com/foto-gratis/elefante-lindo-naturaleza_23-2150895421.jpg?auto=compress&cs=tinysrgb&w=800",
+    image: "//lob.com.mx/cdn/shop/products/Mini-Baby-Elephant-Stuffed-Animal-1-KAM2020-01.jpg?auto=compress&cs=tinysrgb&w=800",
     category: "animals",
     size: "medium",
     rating: 4.8,
     isNew: true,
     description: "Tierno elefante bebé de peluche con orejas grandes y trompa suave. Perfecto para abrazar.",
     gallery: [
-      "https://img.freepik.com/foto-gratis/elefante-lindo-naturaleza_23-2150895421.jpg?auto=compress&cs=tinysrgb&w=800"
+      ""//lob.com.mx/cdn/shop/products/Mini-Baby-Elephant-Stuffed-Animal-1-KAM2020-01.jpg?auto=compress&cs=tinysrgb&w=800"
     ]
   },
   {
