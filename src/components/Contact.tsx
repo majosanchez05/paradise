@@ -210,8 +210,8 @@ export const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Dirección</h4>
                     <p className="text-gray-600">
-                      Av. Paradise 123, Centro Comercial<br />
-                      Ciudad de México, CDMX 01234
+                      Av. 68 , Centro Comercial<br />
+                   
                     </p>
                   </div>
                 </div>
