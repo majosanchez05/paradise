@@ -62,7 +62,7 @@ export const About: React.FC = () => {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/265999/pexels-photo-265999.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://img.freepik.com/vector-gratis/diseno-plano-dia-internacional-concepto-familia_23-2148492790.jpg?auto=compress&cs=tinysrgb&w=800"
                 alt="Sobre Paradise"
                 className="w-full h-96 object-cover"
               />
