@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Paradise - Tienda de peluches premium. Encuentra los peluches más tiernos y de mejor calidad. Envío gratis en compras mayores a $50." />
+    <meta name="keywords" content="peluches, ositos, juguetes, regalos, animales de peluche, personajes, Paradise" />
+    <meta name="author" content="Paradise Peluches" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Paradise - Tienda de Peluches Premium" />
+    <meta property="og:description" content="Descubre el mundo más tierno de peluches. Calidad premium, envío gratis y garantía total." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://paradise-peluches.com" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <title>Paradise - Tienda de Peluches Premium | Los más tiernos y de mejor calidad</title>
+    
+    <style>
+      body {
+        font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        background: linear-gradient(135deg, #fef7ff 0%, #fef3f4 50%, #fef7ff 100%);
+      }
+      
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #ec4899;
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #db2777;
+      }
+      
+      /* Loading animation */
+      .loading {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 3px solid rgba(255,255,255,.3);
+        border-radius: 50%;
+        border-top-color: #fff;
+        animation: spin 1s ease-in-out infinite;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+      
+      /* Fade in animation */
+      .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 0.8s ease-out forwards;
+      }
+      
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      /* Line clamp utility */
+      .line-clamp-2 {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+      
+      /* Soft shadows for cards */
+      .soft-shadow {
+        box-shadow: 0 4px 20px rgba(236, 72, 153, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+      
+      .soft-shadow:hover {
+        box-shadow: 0 8px 30px rgba(236, 72, 153, 0.15), 0 4px 6px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
